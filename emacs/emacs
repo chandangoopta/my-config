@@ -22,9 +22,7 @@
     (setq ido-enable-flex-matching t) ;; enable fuzzy matching
 
   ;; auto-complete
-    (add-to-list 'load-path "~/.emacs.d/plugins/auto-complete/")
     (require 'auto-complete-config)
-    (add-to-list 'ac-dictionary-directories "~/.emacs.d/plugins/auto-complete//ac-dict")
     (ac-config-default)
 
   ;; line-number
@@ -48,8 +46,8 @@
 
 ;;----------------------------------------------------------------------
 ;; Arch pkg-build mode
-  (autoload 'pkgbuild-mode "pkgbuild-mode.el" "PKGBUILD mode." t)
-  (setq auto-mode-alist (append '(("/PKGBUILD$" . pkgbuild-mode)) auto-mode-alist))
+;;  (autoload 'pkgbuild-mode "pkgbuild-mode.el" "PKGBUILD mode." t)
+;;  (setq auto-mode-alist (append '(("/PKGBUILD$" . pkgbuild-mode)) auto-mode-alist))
 
 ;;----------------------------------------------------------------------
 ;; Python mode
