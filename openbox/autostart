@@ -19,7 +19,6 @@
 xset -b # remove irritating beeps
 nitrogen --restore &
 tint2 &
-
 artha &
 
 # xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
@@ -27,7 +26,6 @@ artha &
 setxkbmap -option compose:caps
 # setxkbmap -option grp:switch,grp:alt_shit_toggle,grp_led:scroll us,dvorak
 
-# workrave &
 sleep 1 && bash .rconky 
 
 #/usr/lib/notification-daemon-1.0/notification-daemon &
