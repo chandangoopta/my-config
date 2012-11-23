@@ -1,2 +1,5 @@
 #located it when installing git /usr/share/git/git-prompt.sh
-git-prompt
+#git-prompt #is not in ubuntu so add
+arch.alias
+systemd.alias
+
